@@ -31,11 +31,13 @@ background-color: #a4cebcf0;
 .search-box {
     display: flex;
     height: 30rem;
-    border-radius: 5rem;
+    border-radius: 20rem;
     border: none;
     outline: none;
     text-transform: capitalize;
     width: 260rem;
+    padding-left: 15rem;
+
 }
 
 .search-btn {
