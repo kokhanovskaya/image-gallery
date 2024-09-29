@@ -7,52 +7,39 @@ html {
         font-size: calc(1vw/3.2);
     }
 }
-
 body{
     margin: 0;
 }
 
-.head {
-width: 100%;
-height: 65rem;
-display: flex;
-justify-content: space-around;
-background-color: #a4cebcf0;
-}
-
-.logo {
-    font-family: poppins, sans-serif;
-    font-size: 30rem;
-    align-content: center;
-}
-
-.search {
+.search-container {
+    width: 100%;
+    height: 65rem;
     display: flex;
+    justify-content: space-around;
+    background-color: #a4cebcf0;
     position: relative;
-    align-self: center;
 }
-
-.search-box {
+.search-input {
     display: flex;
     height: 30rem;
     border-radius: 20rem;
     border: none;
     outline: none;
     text-transform: capitalize;
-    width: 260rem;
     padding-left: 15rem;
-
+    width: 90%;
+    align-self: center;
+    
 }
 
-.search-btn {
+.search {
     border-radius: 5rem;
     text-transform: capitalize;
     border: none;
     outline: none;
     cursor: pointer;
     position: absolute;
-    top: 6rem;
-    left: 235rem;
+    right: 60rem;
     background: none;
 }
 
@@ -63,7 +50,7 @@ background-color: #a4cebcf0;
 .gallery {
     padding: 40rem;
     background-color: #fff;
-    columns: 4;
+    columns: 6;
     column-gap: 10rem;
 }
 
@@ -75,7 +62,6 @@ background-color: #a4cebcf0;
     border-radius: 5rem;
     cursor: pointer;
 }
-
 
 footer {
     width: 100%;
@@ -104,8 +90,4 @@ footer {
     color: rgb(7, 6, 2);
     text-decoration: solid;
     transform: scale(1.1);
-}
- 
-.footer-year {
-    font-size: 24rem;
 }
